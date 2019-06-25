@@ -69,19 +69,6 @@ def like(request,pic_id):
 	save_like()
 	return redirect(timeline)
 
-# @login_required(login_url='/accounts/login/')
-# def search_pic(request):
-
-# 	if "pic" in request.GET and request.GET["pic"]:
-# 		search_pic = request.GET.get("pic")
-# 		got_users = Profile.find_profile(search_pic)
-# 		message =f"{search_pic}"
-
-# 		return render(request,'my-inst/search_pic.html',{"got_users":got_users,"message":message})
-# 	else:
-# 		message = "Invalid username"
-# 		return render(request,'my-inst/search_pic.html',{"message":message})
-
 def search_results(request):
     if 'pic' in request.GET and request.GET["pic"]:
         search_term = request.GET.get("pic")
