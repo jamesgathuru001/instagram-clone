@@ -29,7 +29,7 @@ As a user of the application i should be able to:
 * Clone https://github.com/jamesgathuru001/instagram-clone.git
 * Atleast have a computer or a laptop
 * Have an internet connection
-* Visit 
+* Visit https://instagram-clone200.herokuapp.com/
 
 * install Django
 
